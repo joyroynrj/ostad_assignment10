@@ -1,0 +1,15 @@
+node_modules: This is where the dependencies for your project are stored after running npm install. You don't need to manually create or modify this folder.
+
+public: This folder is meant for static assets that will be accessible directly by the browser, like images, fonts, and favicon. The favicon.ico file is a common example.
+
+app: This is the main source code folder for your project.
+
+pages: This is a special directory where you'll create your Next.js pages. Each .js or .jsx file in this folder represents a route in your application. 
+
+.gitignore: This file specifies which files and folders should be ignored by version control (Git). It's good practice to ignore node_modules/ and other build-related folders to keep your repository clean.
+
+package.json: This file contains project metadata and a list of dependencies. It's generated when you run npm init and gets updated when you install new packages.
+
+next.config.js: The next.config.js file is a configuration file used in Next.js projects to customize various aspects of the Next.js build process and development environment. It allows you to provide specific settings and options to control how your Next.js application behaves and is built.
+
+README.md: This is a markdown file where you can provide information about your project, its purpose, how to set it up, and any other relevant details.
